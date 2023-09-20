@@ -5,8 +5,8 @@ let songPart = ["chorus", "intro", "solo", "verse"];
 
 
 function Generate() {
-    let i = 5;
-    let j = 1;
+    let i = Math.floor(Math.random() * 10);;
+    let j = Math.floor(Math.random() * 3);
     let data = (`Today you will be learning the ${songPart[j]} of the song ${songs[i]} by the ${artists[i]}`);
     document.getElementById("printHere").innerHTML = data;
 }
