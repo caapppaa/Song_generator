@@ -1,0 +1,41 @@
+<html>
+<head>
+<script src="/Users/anthonycappellucci/Coding Files/Song Generator/JavaScript/main.js"></script>
+<script>
+     // This code loads the IFrame Player API code asynchronously. This is for youtube API
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+</script>
+<link rel="stylesheet" href="styles.css">
+<title>Song generator</title>
+</head>
+
+<div class="topnav">
+    <a class="active" href="index.html">Pick a Song</a>
+    <a href="about.html">About</a>
+    <a href="addSong.html">Add a Song!</a>
+</div>
+
+<body>
+    <h1>What Song Should I Learn Today?</h1>
+    <h2>Click the Button Below to Generate a new Song!</h2>
+
+    <div class="button-center">
+    <button class="button" onclick="Generate()">Generate!</button>
+    </div>
+    
+    <p id="printSong"></p>
+
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+        <div class="divForPlayer">
+        <div id="player"></div>
+    </div>
+    <footer class="footer">
+        <p>Author: Anthony Capp, Last Updated: 24th September 2023<br>
+    </footer>
+</body>
+
+
+</html>
