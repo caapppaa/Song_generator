@@ -18,7 +18,7 @@ let songPart = ["chorus", "intro", "solo", "verse"];
 
 function Generate() {
     // Random int for song
-    let i = Math.floor(Math.random() * 12);;
+    let i = Math.floor(Math.random() * songs.length);;
     //Randon int for song part
     let j = Math.floor(Math.random() * 4);
     let phrase = 1; // Math.floor(Math.random() * 5);
@@ -84,8 +84,7 @@ function Generate() {
      document.getElementById("printSong").innerHTML = data;
 
       // calls the youtube player API if there is a value with the video ID
-    
-    onYouTubeIframeAPIReady();
+      onYouTubeIframeAPIReady();
         
 
 }
