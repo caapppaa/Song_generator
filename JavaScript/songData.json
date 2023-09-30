@@ -1,11 +1,12 @@
-{"name" : "Hotel California", "artist" : "Eagles", "JIDdI-AtK-Q"}, 
-{"name" : "Sultans of Swing","artist" :  "Dire Straits", "ULxsTuG8ghw"},
-{"name" : "Sweet Child o Mine", "artist" :  "Guns N Roses", "iWxMMWOmkNQ"},
-{"name" : "Creep",  "artist" : "Radiohead", "0-IAFa5Hz8M"},
-{"name" : "Everlong",  "artist" : "Foo Fighters", "8SdCgWgP_TI"},
-{"name" : "Stairway to Heaven",  "artist" : "Led Zeppelin", "iGleR_5yiaE"},
-{"name" : "Nothing Else Matters", "artist" :  "Metallica", "7silbMA9UME"},
-{"name" : "Wish you Were Here", "artist" :  "Pink Floyd", "IzxMeQgtyYE"},
-{"name" : "Under The Bridge", "artist" :  "Red Hot Chili Peppers", "RJlQ9WOYrwA"},
-{"name" : "Crazy Train",  "artist" : "Ozzy Osbourne", "61YCfNHZuHE"},
-{"name" : "Sweet Home Alabama",  "artist" : "Lynyrd Skynyrd", "FOh9-f_o_MM"}
+{"hotel": {"name" : "Hotel California", "artist" : "Eagles", "ytId" : "JIDdI-AtK-Q"},
+"sulatns": {"name" : "Sultans of Swing","artist" :  "Dire Straits",  "ytId" :  "ULxsTuG8ghw"},
+"sweetChild": {"name" : "Sweet Child o Mine", "artist" :  "Guns N Roses", "ytId" :  "iWxMMWOmkNQ"},
+"creep": {"name" : "Creep",  "artist" : "Radiohead", "ytId" :  "0-IAFa5Hz8M"},
+"everlong": {"name" : "Everlong",  "artist" : "Foo Fighters", "ytId" :  "8SdCgWgP_TI"},
+"stairway": {"name" : "Stairway to Heaven",  "artist" : "Led Zeppelin", "ytId" :  "iGleR_5yiaE"},
+"nothing": {"name" : "Nothing Else Matters", "artist" :  "Metallica", "ytId" :  "7silbMA9UME"},
+"wish": {"name" : "Wish you Were Here", "artist" :  "Pink Floyd", "ytId" :  "IzxMeQgtyYE"},
+"under": {"name" : "Under The Bridge", "artist" :  "Red Hot Chili Peppers",  "ytId" : "RJlQ9WOYrwA"},
+"crazy": {"name" : "Crazy Train",  "artist" : "Ozzy Osbourne", "ytId" :  "61YCfNHZuHE"},
+"sweetHome": {"name" : "Sweet Home Alabama",  "artist" : "Lynyrd Skynyrd",  "ytId" : "FOh9-f_o_MM"}
+}
