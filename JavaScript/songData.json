@@ -1,20 +1,11 @@
-Hotel California,Eagles
-Sweet Child O Mine,Guns N Roses
-Creep,Radiohead
-Stairway To Heaven,Led Zeppelin
-Sultans of Swing,Dire Straits
-Nothing Else Matters,Metallica
-Everlong,Foo Fighters
-One More Time,Blink-182
-Master Of Puppets,Metallica
-Wish You Were Here,Pink Floyd
-Comfortably Numb,Pink Floyd
-Back In Black,AC/DC
-Enter Sandman,Metallica
-Smells Like Teen Spirit,Nirvana
-Blackbird,The Beatles
-Wonderwall,Oasis
-Paranoid,Black Sabbath
-Californication,Red Hot Chilli Peppers
-Fade to Black,Metallica
-Crazy Train,Ozzy Osbourne
+{"name" : "Hotel California", "artist" : "Eagles", "JIDdI-AtK-Q"}, 
+{"name" : "Sultans of Swing","artist" :  "Dire Straits", "ULxsTuG8ghw"},
+{"name" : "Sweet Child o Mine", "artist" :  "Guns N Roses", "iWxMMWOmkNQ"},
+{"name" : "Creep",  "artist" : "Radiohead", "0-IAFa5Hz8M"},
+{"name" : "Everlong",  "artist" : "Foo Fighters", "8SdCgWgP_TI"},
+{"name" : "Stairway to Heaven",  "artist" : "Led Zeppelin", "iGleR_5yiaE"},
+{"name" : "Nothing Else Matters", "artist" :  "Metallica", "7silbMA9UME"},
+{"name" : "Wish you Were Here", "artist" :  "Pink Floyd", "IzxMeQgtyYE"},
+{"name" : "Under The Bridge", "artist" :  "Red Hot Chili Peppers", "RJlQ9WOYrwA"},
+{"name" : "Crazy Train",  "artist" : "Ozzy Osbourne", "61YCfNHZuHE"},
+{"name" : "Sweet Home Alabama",  "artist" : "Lynyrd Skynyrd", "FOh9-f_o_MM"}

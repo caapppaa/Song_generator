@@ -20,7 +20,7 @@ function Generate() {
     // Random int for song
     let i = Math.floor(Math.random() * songs.length);;
     //Randon int for song part
-    let j = Math.floor(Math.random() * 4);
+    let j = Math.floor(Math.random() * songPart.length);
     let phrase = 1; // Math.floor(Math.random() * 5);
     // troubleshooting if the if statement block fails
     let data = "initialisation Error";
@@ -87,5 +87,17 @@ function Generate() {
       onYouTubeIframeAPIReady();
         
 
+}
+
+function createList() {
+  // Prints the phrase by accessig PrintHere DOM element
+  let i = 0;
+  let data = '';
+  while (songs.length > i) {
+    data += `${songs[i][0]}, `;
+    i++
+  }
+  
+  document.getElementById("printSong").innerHTML = data;
 }
 
