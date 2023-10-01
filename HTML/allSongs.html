@@ -4,35 +4,27 @@
     <link rel="icon" type="image/x-icon" href="/Users/anthonycappellucci/Coding Files/Song Generator/Images/favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <title>Song generator</title>
-    <style>
-     
-        </style>
     </head>
     
     <div class="topnav">
         <a href="index.html">Pick a Song</a>
-        <a href="allSongs.html">All Songs</a>
-        <a class="active" href="addSong.html">Add a Song!</a>
+        <a class="active" href="allSongs.html">All Songs</a>
+        <a href="addSong.html">Add a Song!</a>
         <a style="float: right" href="about.html">About...</a>
     </div>
 
 <body>
-    <h1>Add your own song to the mix! </h1>
+    <h1>All Songs</h1>
     <div class="greyDiv">
-    <form>
-        <label id="songName">Song Name: </label>
-        <input type="text" id="songName" required> <br> <br>
-        <label id="songArtist">Song Artist: </label>
-        <input type="text" id="songArtist" required> <br><br>
-        <label id="ytID">Youtube ID: </label>
-        <input type="text" id="ytID" required> <br> <br>
+    <div class="button-center">
+    <button class="button" onclick="createList()">Click to view List!</button>
+    </div>
+    <p id="printSong"></p>
 
-        <input type="submit" value="Submit">
-        
-
-    </form>
 </div>
+
 </body>
+
 
 <footer class="footer">
     Author: Anthony Capp, Last Updated: 27th September 2023

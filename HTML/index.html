@@ -15,13 +15,15 @@
 
 <div class="topnav">
     <a class="active" href="index.html">Pick a Song</a>
-    <a href="about.html">About</a>
+    <a href="allSongs.html">All Songs</a>
     <a href="addSong.html">Add a Song!</a>
+    <a style="float: right" href="about.html">About...</a>
 </div>
 
 <body>
     <h1>What Song Should I Learn Today?</h1>
-    <h2>Click the Button Below to Generate a new Song!</h2>
+    <div class="greyDiv">
+    <h3>Click the Button Below to Generate a new Song!</h3>
 
     <div class="button-center">
     <button class="button" onclick="Generate()">Generate!</button>
@@ -30,13 +32,13 @@
     <p id="printSong"></p>
 
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-        <div class="divForPlayer">
-        <div id="player"></div>
     </div>
-    <footer class="footer">
-        <p>Author: Anthony Capp, Last Updated: 27th September 2023<br>
-    </footer>
-</body>
+    <div class="divForPlayer" id="divForPlayer">
+        <p id="player"></p>
+   </body> 
 
+    <footer class="footer">
+        Author: Anthony Capp, Last Updated: 27th September 2023
+    </footer>
 
 </html>

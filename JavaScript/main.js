@@ -17,6 +17,8 @@ const songs = [
 let songPart = ["chorus", "intro", "solo", "verse"];
 
 function Generate() {
+    var x = document.getElementById("divForPlayer");
+    x.style.display = "block";
     // Random int for song
     let i = Math.floor(Math.random() * songs.length);;
     //Randon int for song part
@@ -45,6 +47,9 @@ function Generate() {
         data = (`Today you commit to learning the ENTIRE ${songPart[j]} in <span style="color: red">${iSong}</span> by ${iArtist}`);
     }
 
+
+   
+  
       // 3. This function creates an <iframe> (and YouTube player)
       //    after the API code downloads.
       var player;
