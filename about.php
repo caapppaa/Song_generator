@@ -1,16 +1,14 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <script src="/Users/anthonycappellucci/Coding Files/Song Generator/JavaScript/main.js"></script>
-    <link rel="icon" type="image/x-icon" href="/Users/anthonycappellucci/Coding Files/Song Generator/Images/favicon.ico">
-    <link rel="stylesheet" href="styles.css">
-    <title>Song generator</title>
+<?php include 'header.php';?>
     </head>
     
     <div class="topnav">
-        <a href="index.html">Pick a Song</a>
-        <a href="allSongs.html">All Songs</a>
-        <a href="addSong.html">Add a Song!</a>
-        <a style="float: right" class="active" href="about.html">About...</a>
+        <a href="index.php">Pick a Song</a>
+        <a href="allSongs.php">All Songs</a>
+        <a href="addSong.php">Add a Song!</a>
+        <a style="float: right" class="active" href="about.php">About...</a>
     </div>
 
 <body>
@@ -30,8 +28,6 @@
 </body>
 
 
-<footer class="footer">
-    Author: Anthony Capp, Last Updated: 27th September 2023
-</footer>
+<?php include 'footer.php';?>
 
 </html>

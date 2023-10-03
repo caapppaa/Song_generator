@@ -1,7 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
-<link rel="icon" type="image/x-icon" href="/Users/anthonycappellucci/Coding Files/Song Generator/Images/favicon.ico">
-<script src="/Users/anthonycappellucci/Coding Files/Song Generator/JavaScript/main.js"></script>
+<?php include 'header.php';?>
 <script>
      // This code loads the IFrame Player API code asynchronously. This is for youtube API
     var tag = document.createElement('script');
@@ -9,15 +9,15 @@
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 </script>
-<link rel="stylesheet" href="styles.css">
-<title>Song generator</title>
+
+<?php include 'footer.php';?>
 </head>
 
 <div class="topnav">
-    <a class="active" href="index.html">Pick a Song</a>
-    <a href="allSongs.html">All Songs</a>
-    <a href="addSong.html">Add a Song!</a>
-    <a style="float: right" href="about.html">About...</a>
+    <a class="active" href="index.php">Pick a Song</a>
+    <a href="allSongs.php">All Songs</a>
+    <a href="addSong.php">Add a Song!</a>
+    <a style="float: right" href="about.php">About...</a>
 </div>
 
 <body>
@@ -37,8 +37,5 @@
         <p id="player"></p>
    </body> 
 
-    <footer class="footer">
-        Author: Anthony Capp, Last Updated: 27th September 2023
-    </footer>
 
 </html>

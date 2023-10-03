@@ -45,10 +45,7 @@ function Generate() {
     }
     else {
         data = (`Today you commit to learning the ENTIRE ${songPart[j]} in <span style="color: red">${iSong}</span> by ${iArtist}`);
-    }
-
-
-   
+    }   
   
       // 3. This function creates an <iframe> (and YouTube player)
       //    after the API code downloads.
@@ -103,6 +100,6 @@ function createList() {
     i++
   }
   
-  document.getElementById("printSong").innerHTML = data;
+  document.getElementById("printSongList").innerHTML = data;
 }
 

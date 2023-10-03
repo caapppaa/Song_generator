@@ -80,7 +80,10 @@ p {
     text-align: center;
     font-size: 45px;
    }
-
+#printSongList {
+    text-align: center;
+    font-size: 45px;
+   }
 
 .footer {
     position: fixed;
