@@ -100,6 +100,6 @@ function createList() {
     i++
   }
   
-  document.getElementById("printSong").innerHTML = 'test';
+  document.getElementById("printSong").innerHTML = data;
 }
 
