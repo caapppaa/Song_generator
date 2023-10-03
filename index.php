@@ -2,14 +2,6 @@
 <html>
 <head>
 <?php include 'header.php';?>
-<script>
-     // This code loads the IFrame Player API code asynchronously. This is for youtube API
-    var tag = document.createElement('script');
-    tag.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-</script>
-
 <?php include 'footer.php';?>
 </head>
 
@@ -19,6 +11,7 @@
     <a href="addSong.php">Add a Song!</a>
     <a style="float: right" href="about.php">About...</a>
 </div>
+
 
 <body>
     <h1>What Song Should I Learn Today?</h1>
@@ -39,3 +32,4 @@
 
 
 </html>
+

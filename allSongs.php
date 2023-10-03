@@ -16,13 +16,13 @@
     <div class="greyDiv">
     <div class="button-center">
     <button class="button" onclick="createList()">Click to view List!</button>
+    <p id="printSong"></p>
     </div>
-    <p id="printSongList"></p>
+    
 
 </div>
 
 </body>
-
 
 <?php include 'footer.php';?>
 </html>
