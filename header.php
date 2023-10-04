@@ -26,10 +26,10 @@ body {
 
 
 
-<div class="header">
-  <h4> Song Generator
-  <button style="float: right" onclick="darkMode()"><img height="10px" width="10px" src="darkMode.svg"></button>
-  
+<div class="head">
+  <a>Song Generator</a>
+  <a href="https://github.com/caapppaa"><img height="20px" width="20px" src="githubLogo.png"></a>
+  <a><button onclick="darkMode()"><img height="10px" width="10px" src="darkMode.svg"></button></a>
 </div>
 
 
