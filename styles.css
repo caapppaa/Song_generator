@@ -11,21 +11,6 @@ html {
     padding: 20px;
   }
 
-.head {
-  background-color: #f9f9f9;
-  text-align: center;
-  overflow: hidden;
-}
-
-.head a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
 
 /* This is the background color for the nav bar */
 .topnav {
@@ -69,12 +54,6 @@ h2 {
 h3 {
     text-align: center;
     font-size: 30px;
-}
-
-h4 {
-  text-align: left;
-  color: #164161;
-  font-size: 30px;
 }
 
 p {
