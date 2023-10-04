@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html id="html123">
 <head>
 <?php include 'header.php';?>
 <?php include 'footer.php';?>
 </head>
+
 
 <div class="topnav">
     <a class="active" href="index.php">Pick a Song</a>
@@ -12,10 +13,9 @@
     <a style="float: right" href="about.php">About...</a>
 </div>
 
-
 <body>
     <h1>What Song Should I Learn Today?</h1>
-    <div class="greyDiv">
+    <div class="greyDiv" id="greyDiv">
     <h3>Click the Button Below to Generate a new Song!</h3>
 
     <div class="button-center">

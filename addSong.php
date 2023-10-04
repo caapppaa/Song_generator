@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="html123">
 <head>
 <?php include 'header.php';?>
     <style>
@@ -16,7 +16,7 @@
 
 <body>
     <h1>Add your own song to the mix! </h1>
-    <div class="greyDiv">
+    <div class="greyDiv" id="greyDiv">
     <form>
         <label id="songName">Song Name: </label>
         <input type="text" id="songName" required> <br> <br>

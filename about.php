@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="html123">
 <head>
 <?php include 'header.php';?>
     </head>
@@ -13,7 +13,7 @@
 
 <body>
     <h1>About...</h1>
-    <div class="greyDiv">
+    <div class="greyDiv" id="greyDiv">
     <p>Here is a simple program I developed for a codecademy course, it is designed to show my understanding of CSS, JSON, Javascript and HMTL. The below headers explain what each page does and what skills they implement.</p><br>
 
     <h2>Pick a song!</h2>
