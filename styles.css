@@ -2,7 +2,12 @@ html {
     height: 120%;
     overflow: auto;
     font-family: 'Courier New', monospace;
-    background-color: white;
+    background-color: #e1e1e183;
+}
+
+.header {
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
 /* This is the background color for the nav bar */
@@ -47,6 +52,12 @@ h2 {
 h3 {
     text-align: center;
     font-size: 30px;
+}
+
+h4 {
+  text-align: left;
+  color: #164161;
+  font-size: 15px;
 }
 
 p {
@@ -124,7 +135,7 @@ p {
   
   .greyDiv {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #f3f3f3;
     padding: 20px;
   }
 

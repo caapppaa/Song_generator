@@ -11,3 +11,7 @@
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 </script>
+
+<div class="header">
+  <h4> Song Generator</h4>
+</div>
